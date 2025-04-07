@@ -32,7 +32,7 @@ export type Instrument = {
     transposition: number;
 };
 
-export const instruments: Instrument[] = [
+const instruments: Instrument[] = [
     { name: "Piccolo", transposition: 0 }, // Sounds octave(s) higher, 0 semitone difference within octave
     { name: "Flute", transposition: 0 }, // Non-transposing
     { name: "Alto Flute in G", transposition: -4 }, // Sounds P4 lower (-4 semitones)
