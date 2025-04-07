@@ -26,6 +26,7 @@ import {
 
 import { use, useEffect, useState } from "react";
 import { Toggle } from "@/components/ui/toggle";
+import MusicStaveNote from "@/components/stave";
 
 export type Instrument = {
     name: string;
@@ -62,7 +63,6 @@ const instruments: Instrument[] = [
     { name: "Xylophone", transposition: 0 }, // Sounds octave higher, 0 semitone difference within octave
     { name: "Celesta", transposition: 0 }, // Sounds octave higher, 0 semitone difference within octave
     { name: "Harp", transposition: 0 }, // Non-transposing
-    { name: "Piano", transposition: 0 }, // Non-transposing
     { name: "Violin", transposition: 0 }, // Non-transposing
     { name: "Viola", transposition: 0 }, // Non-transposing
     { name: "Cello", transposition: 0 }, // Non-transposing
